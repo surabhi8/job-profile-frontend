@@ -4,6 +4,8 @@ import AppBar from 'material-ui/AppBar';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import PropTypes from 'prop-types';
 import axios from 'axios';
+import baseURL from '../../Constants';
+import './Company.css';
 class Company extends React.Component {
   constructor(props){
     super(props);
@@ -12,7 +14,7 @@ class Company extends React.Component {
     }
   }
   componentDidMount(){
-      const apiBaseUrl = "http://localhost:3000/";
+      const apiBaseUrl = baseURL
       const companyId = this.props.loction?this.props.location.aboutProps.companyId:1;
       axios.get(apiBaseUrl+`company-profile?companyId=${companyId}`).then((response)=>{
         if(response.status===200){
@@ -21,6 +23,8 @@ class Company extends React.Component {
       })
     }
   render(){
+    const {companyObject} = this.state
+   console.log(companyObject.image);
     if(Object.keys(this.state.companyObject).length>0) {return (
       <div>
       <MuiThemeProvider>
@@ -29,11 +33,14 @@ class Company extends React.Component {
            />
          </MuiThemeProvider>
          <div className="company-wrapper">
-         <div className="company-attribute">Name:{this.state.companyObject.name}</div>
-         <div className="company-attribute">Logo: "Hello"</div>
-          <div className="company-attribute">Address: {this.state.companyObject.address}</div>
-          <div className="company-attribute">UniqueUsers: {this.state.companyObject.uniqueUsers}</div>
-          <div className="company-attribute">TotalViews: {this.state.companyObject.totalViews}</div>
+         <div className="company-attribute">
+         {companyObject.name}
+         <span className="company-logo"> <img className="company-logo" alt="company" src={`/Images/${companyObject.logo}`}></img></span>
+         </div>
+       
+          <div className="company-attribute"> {companyObject.address}</div>
+          <div className="company-attribute">Visted Users: {companyObject.uniqueUsers}</div>
+          <div className="company-attribute">TotalViews: {companyObject.totalViews}</div>
           </div>
           </div>)}
           else return null};

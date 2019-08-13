@@ -3,15 +3,8 @@
   display: flex;
   flex-direction: column;
 }
-
-.company {
-  outline: none;
-  border:none;
-  text-decoration: underline blue;
-  font-size: 14px;
+.proifle-image {
+  height: 20px;
+  width: 20px;
 }
 
-.company:focus {
-  outline:none;
-  border:none;
-}
