@@ -1,0 +1,17 @@
+.profile-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.company {
+  outline: none;
+  border:none;
+  text-decoration: underline blue;
+  font-size: 14px;
+}
+
+.company:focus {
+  outline:none;
+  border:none;
+}
