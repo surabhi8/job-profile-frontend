@@ -7,11 +7,13 @@ describe('<App />', () => {
     name: 'Test 1',
     jobRole: 'Dummy Company',
     companyObject: {
-      name: "ABC"
+      name: 'ABC',
     },
-    companyId:1
-  }
-  const actual = shallow(<Profile profileObject={profileObject}/>);
+    companyId: 1,
+  };
+  const actual = shallow(<Profile
+    profileObject={profileObject}
+  />);
 
   it('renders correctly', () => {
     expect(actual).toMatchSnapshot();
