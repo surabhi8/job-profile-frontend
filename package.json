@@ -36,7 +36,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://intense-spire-86709.herokuapp.com/",
   "devDependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0"

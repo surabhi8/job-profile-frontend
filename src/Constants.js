@@ -1,3 +1,3 @@
 
-const baseURL = 'https://surabhi8.github.io/job-profile-frontend/';
+const baseURL = 'https://intense-spire-86709.herokuapp.com';
 export default baseURL;
