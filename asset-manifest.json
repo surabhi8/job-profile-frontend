@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/job-profile-frontend/static/css/main.5ad6bccf.chunk.css",
-    "main.js": "/job-profile-frontend/static/js/main.799502b7.chunk.js",
-    "main.js.map": "/job-profile-frontend/static/js/main.799502b7.chunk.js.map",
+    "main.js": "/job-profile-frontend/static/js/main.d0b5a1dd.chunk.js",
+    "main.js.map": "/job-profile-frontend/static/js/main.d0b5a1dd.chunk.js.map",
     "runtime~main.js": "/job-profile-frontend/static/js/runtime~main.37d48b60.js",
     "runtime~main.js.map": "/job-profile-frontend/static/js/runtime~main.37d48b60.js.map",
     "static/js/2.3da4699d.chunk.js": "/job-profile-frontend/static/js/2.3da4699d.chunk.js",
     "static/js/2.3da4699d.chunk.js.map": "/job-profile-frontend/static/js/2.3da4699d.chunk.js.map",
     "index.html": "/job-profile-frontend/index.html",
-    "precache-manifest.6cdedc997b623222f1d30d8e2800b38a.js": "/job-profile-frontend/precache-manifest.6cdedc997b623222f1d30d8e2800b38a.js",
+    "precache-manifest.2635eaf4603910a92f180c05b82e15c3.js": "/job-profile-frontend/precache-manifest.2635eaf4603910a92f180c05b82e15c3.js",
     "service-worker.js": "/job-profile-frontend/service-worker.js",
     "static/css/main.5ad6bccf.chunk.css.map": "/job-profile-frontend/static/css/main.5ad6bccf.chunk.css.map"
   }

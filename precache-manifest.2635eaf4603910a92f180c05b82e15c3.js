@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4311301a3d8ced08de9142e77fe2d28e",
+    "revision": "6394917a64c06b4df19075f0829f7bfb",
     "url": "/job-profile-frontend/index.html"
   },
   {
-    "revision": "5573860c90065ba5a47d",
+    "revision": "90dc89604667639f5638",
     "url": "/job-profile-frontend/static/css/main.5ad6bccf.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/job-profile-frontend/static/js/2.3da4699d.chunk.js"
   },
   {
-    "revision": "5573860c90065ba5a47d",
-    "url": "/job-profile-frontend/static/js/main.799502b7.chunk.js"
+    "revision": "90dc89604667639f5638",
+    "url": "/job-profile-frontend/static/js/main.d0b5a1dd.chunk.js"
   },
   {
     "revision": "ddde3848040a8238da28",
