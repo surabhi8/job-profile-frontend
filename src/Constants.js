@@ -1,3 +1,3 @@
 
-const baseURL = 'http://localhost:3000/';
+const baseURL = 'https://surabhi8.github.io/job-profile-frontend/';
 export default baseURL;
