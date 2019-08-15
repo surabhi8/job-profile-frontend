@@ -2,6 +2,7 @@
   "name": "job-profile-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://surabhi8.github.io/job-profile-frontend/",
   "dependencies": {
     "axios": "^0.19.0",
     "http-proxy-middleware": "^0.19.1",
@@ -17,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint:write": "eslint src/ --fix"
+    "lint:write": "eslint src/ --fix",
+     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
