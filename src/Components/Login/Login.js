@@ -28,7 +28,6 @@ class Login extends React.Component {
         axios.post(`${apiBaseUrl}profile`, payload).then((response) => {
           if (response.status === 200) {
             this.setState({ isLogggedIn: !this.state.isLogggedIn });
-            console.log('in login', response.data.result.Company.name);
             this.setState({ profileObject: response.data.result });
           }
         });

@@ -24,7 +24,6 @@ class Company extends React.Component {
     }
   render(){
     const {companyObject} = this.state
-   console.log(companyObject.image);
     if(Object.keys(this.state.companyObject).length>0) {return (
       <div>
       <MuiThemeProvider>
@@ -39,7 +38,6 @@ class Company extends React.Component {
          </div>
        
           <div className="company-attribute"> {companyObject.address}</div>
-          <div className="company-attribute">Visted Users: {companyObject.uniqueUsers}</div>
           <div className="company-attribute">TotalViews: {companyObject.totalViews}</div>
           </div>
           </div>)}
